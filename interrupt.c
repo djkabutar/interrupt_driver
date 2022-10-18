@@ -40,10 +40,10 @@ unsigned long old_jiffie = 0;
 #endif
 
 //LED is connected to this GPIO
-#define GPIO_21_OUT (158)
+#define GPIO_21_OUT (21)
 
 //LED is connected to this GPIO
-#define GPIO_25_IN  (13)
+#define GPIO_25_IN  (25)
 
 //GPIO_25_IN value toggle
 unsigned int led_toggle = 0; 
